@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "D:\\python_venv\\t2\\Scripts\\python.exe", // 設定自己的路徑
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ]
+}
