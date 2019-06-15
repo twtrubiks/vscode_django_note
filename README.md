@@ -2,11 +2,9 @@
 
  如何使用 VScode 執行 Django 📝
 
-* [(等待新增)Youtube Tutorial PART 1 - 如何使用 VScode 執行 Django - 基本篇](XXX)
+* [Youtube Tutorial PART 1 - 如何使用 VScode 執行 Django - 基本篇](https://youtu.be/uhxl_YFc-wc)
 
-* [(等待新增)Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing](XXX)
-
-* [(等待新增)Youtube Tutorial PART 3 - 如何使用 VScode 執行 Django - 安裝 pylint_django ](XXX)
+* [(等待新增)Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing 以及 pylint_django](XXX)
 
 ## 教學
 
@@ -60,7 +58,7 @@
 
 如果我只想單純對某個資料夾 ( 例如 musics ) 底下跑 testing
 
-> python manage.py test musics
+> python manage.py test musics/
 
 更多詳細可參考
 
@@ -89,18 +87,6 @@
 選擇 Django Test 就會開始跑 Testing 了
 
 ![alt tag](https://i.imgur.com/msP7Uzm.png)
-
-延伸思考，假如我現在希望跑 Testing 的時候，我想要中斷點到 Django 的某一行，
-
-這時候該如何設定呢 ?
-
-其實也很簡單，就是先執行 Django ( 設定中斷點 )，然後再執行 Django Test 即可。
-
-( 這邊請注意，請開兩個 Terminal 分別執行 Django 以及 Django Test ，
-
-如果不了解介紹看影片說明)
-
-![alt tag](https://i.imgur.com/oCQSp0F.png)
 
 ### 設定 pylint_django
 
