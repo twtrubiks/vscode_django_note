@@ -4,7 +4,7 @@
 
 * [Youtube Tutorial PART 1 - 如何使用 VScode 執行 Django - 基本篇](https://youtu.be/uhxl_YFc-wc)
 
-* [(等待新增)Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing 以及 pylint_django](XXX)
+* [Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing 以及 pylint_django](https://youtu.be/t-3FqO96hbQ)
 
 ## 教學
 
