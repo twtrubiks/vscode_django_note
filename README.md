@@ -4,7 +4,7 @@
 
 * [Youtube Tutorial PART 1 - 如何使用 VScode 執行 Django - 基本篇](https://youtu.be/uhxl_YFc-wc)
 
-* [(等待新增)Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing 以及 pylint_django](XXX)
+* [Youtube Tutorial PART 2 - 如何使用 VScode 執行 Django Testing 以及 pylint_django](https://youtu.be/t-3FqO96hbQ)
 
 ## 教學
 
@@ -28,7 +28,9 @@
 
 ![alt tag](https://i.imgur.com/42G2mFL.png)
 
-這邊是預設的設定，其他更詳細的設定可參考 [tutorial-django](https://code.visualstudio.com/docs/python/tutorial-django)。
+這邊是預設的設定，其他更詳細的設定可參考 [tutorial-django](https://code.visualstudio.com/docs/python/tutorial-django)
+
+`justMyCode` 這個主要為可以中斷點到外部 library (第三方) 裡面的東西.
 
 ### 執行 Django Debug
 

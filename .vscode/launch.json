@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python：Django",
-            "type": "python",
+            "name": "Django launch",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}\\manage.py",
             "args": [
@@ -14,18 +14,31 @@
                 "--noreload",
                 // "--nothreading"
             ],
-            "django": true
+            "django": true,
+            "justMyCode": false,
         },
         {
-            "name": "Python：Django Test",
-            "type": "python",
+            "name": "Django attach",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 18000
+            },
+            "django": true,
+            "justMyCode": false,
+        },
+        {
+            "name": "Python:Django Test",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}\\manage.py",
             "args": [
                 "test",
                 // "mucics/",
             ],
-            "django": true
+            "django": true,
+            "justMyCode": false,
         }
     ]
 }
