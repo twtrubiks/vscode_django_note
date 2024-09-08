@@ -29,6 +29,17 @@
             "justMyCode": false,
         },
         {
+            "name": "Python:Django Shell",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                // "welcome",  // command
+            ],
+            "django": true,
+            "justMyCode": false,
+        },
+        {
             "name": "Python:Django Test",
             "type": "debugpy",
             "request": "launch",

@@ -52,6 +52,28 @@
 
 可以在這邊輸入你想執行的程式。
 
+### 設定 Django Shell 中斷點
+
+有時候需要使用 Django Shell 或是 [Django management commands](https://github.com/twtrubiks/django-tutorial/tree/django4_custom_management_commands),
+
+這時候可以這樣設定, [.vscode/launch.json](https://github.com/twtrubiks/vscode_django_note/blob/master/.vscode/launch.json)
+
+```json
+{
+    "name": "Python:Django Shell",
+    "type": "debugpy",
+    "request": "launch",
+    "program": "${workspaceFolder}/manage.py",
+    "args": [
+        // "welcome",  // command
+    ],
+    "django": true,
+    "justMyCode": false,
+},
+```
+
+如果你有 management commands, 就在 args 裡面設定即可.
+
 ### 設定 Django Testing
 
 在 Django 中執行 Testing 的指令為
